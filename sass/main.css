@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url(../images/bodypresentacion.jpg);
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(220, 53, 69);
+  margin-top: auto;
+  justify-content: center;
+}
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+footer .footer-container .ul-footer {
+  list-style: none;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+footer .footer-container .ul-footer li i {
+  transform: scale(3.5);
+}
+
+/* INDEX HTML */
+.presentacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.presentacion .imagenPresentacion img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  max-width: 350px;
+}
+.presentacion .containerP p {
+  font-family: kanit;
+  color: white;
+  background-color: rgb(228, 77, 28);
+  padding: 15px;
+  border-radius: 25px;
+  font-size: 22px;
+}
+
+/* PORTAFOLIO */
+.main-portafolio .flex-container {
+  display: flex;
+  margin: 15px;
+}
+.main-portafolio .flex-container .flex-item {
+  width: 450px;
+  height: auto;
+  background-color: black;
+  color: white;
+}
+.main-portafolio .flex-container .flex-item a img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 5px solid black;
+}
+
+.main-experiencia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  gap: 10px;
+  flex-direction: column;
+}
+.main-experiencia .container-main-experiencia {
+  height: auto;
+  width: 75vw;
+  background-color: rgb(227, 77, 38);
+  text-align: center;
+  border-radius: 25px;
+  opacity: 0.8;
+  min-width: 250px;
+}
+.main-experiencia .container-main-experiencia h2 {
+  font-family: roboto;
+  font-weight: 900;
+  font-size: 35px;
+}
+.main-experiencia .container-main-experiencia p {
+  font-size: 20px;
+}
+.main-experiencia .form-experiencia button {
+  padding: 24px;
+  font-size: 22px;
+  height: auto;
+  width: 150px;
+  border-radius: 35px;
+  transition: 0.4s;
+  opacity: 0.7s;
+}
+
+.main-contacto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.main-contacto .contacto-logos {
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+}
+.main-contacto .flex-item-contacto a i {
+  font-size: 65px;
+}
+.main-contacto .flex-item-contacto.textarea textarea {
+  outline: none;
+  width: 60vw;
+  min-width: 120px;
+  resize: none;
+}
+
+/* CONOCIMIENTO */
+.main-conocimiento {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+}
+.main-conocimiento p {
+  width: 70%;
+  background-color: rgb(220, 53, 69);
+  border-radius: 15px;
+  padding: 5px;
+  text-align: center;
+}
+.main-conocimiento .logos-conocimiento {
+  display: flex;
+  gap: 10px;
+  width: 70%;
+  max-width: 700px;
+}
+.main-conocimiento .logos-conocimiento img {
+  width: 100%;
+}/*# sourceMappingURL=main.css.map */
