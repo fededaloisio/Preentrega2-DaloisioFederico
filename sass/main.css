@@ -47,10 +47,8 @@ footer {
   justify-content: center;
   border-top: 2px solid #444;
 }
-footer div {
+footer .footer-container {
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
 }
 footer .footer-container .ul-footer {
   list-style: none;
@@ -59,7 +57,7 @@ footer .footer-container .ul-footer {
   justify-content: center;
 }
 footer .footer-container .ul-footer li i {
-  transform: scale(3.5);
+  transform: scale(3);
 }
 
 /* INDEX HTML */

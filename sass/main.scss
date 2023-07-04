@@ -53,13 +53,9 @@ footer {
     justify-content: center;
     border-top: 2px solid #444;
 
-    div {
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-    }
 
     .footer-container {
+        display: flex;
         .ul-footer {
         list-style: none;
         display: flex;
@@ -68,7 +64,7 @@ footer {
 
         li {
             i {
-                transform: scale(3.5);
+                transform: scale(3);
                 }
             }
         }
