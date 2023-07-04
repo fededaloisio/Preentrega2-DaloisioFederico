@@ -51,29 +51,29 @@ footer {
     background-color: rgb(222, 53, 69);
     margin-top: auto;
     justify-content: center;
-  
+
     div {
-      display: flex;
-      justify-content: center;
-      align-items: flex-end;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
     }
-  
+
     .footer-container {
-      .ul-footer {
+        .ul-footer {
         list-style: none;
         display: flex;
         align-items: flex-end;
         justify-content: center;
-  
+
         li {
-          i {
-            transform: scale(3.5);
-          }
+            i {
+                transform: scale(3.5);
+                }
+            }
         }
-      }
     }
-  }
-  
+}
+
 
 /* INDEX HTML */
 
