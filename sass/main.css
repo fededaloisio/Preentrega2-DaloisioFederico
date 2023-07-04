@@ -39,6 +39,16 @@ body {
   background-color: rgb(228, 77, 38);
 }
 
+.navbar-brand {
+  background-color: rgb(29, 29, 32);
+  border-radius: 90px;
+  transition: 0.5s;
+}
+
+.navbar-brand:hover {
+  background-color: white;
+}
+
 footer {
   display: flex;
   width: 100%;

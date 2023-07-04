@@ -43,6 +43,15 @@ body {
     }
 }
 
+.navbar-brand {
+    background-color: rgb(29, 29, 32);
+    border-radius: 90px;
+    transition: .5s;
+}
+
+.navbar-brand:hover {
+    background-color: white;
+}
 
 
 footer {
