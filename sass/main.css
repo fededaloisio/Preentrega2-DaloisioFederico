@@ -56,10 +56,7 @@ footer .footer-container .ul-footer li i {
 }
 .presentacion .containerP p {
   font-family: kanit;
-  color: white; /* 
-background-color: rgb(228, 77, 28);
-padding: 15px;
-border-radius: 25px; */
+  color: white;
   font-size: 45px;
 }
 
