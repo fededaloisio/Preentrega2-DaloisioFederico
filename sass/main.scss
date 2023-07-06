@@ -166,7 +166,7 @@ footer {
     .container-main-experiencia {
         height: auto;
         width: 75vw;
-        background-color: rgb(227, 77, 38);
+        background-color: #333;
         text-align: center;
         border-radius: 25px;
         opacity: .8;
@@ -174,10 +174,13 @@ footer {
         h2 {
             font-family: roboto;
             font-weight: 900;
-            font-size: 35px;
+            font-size: 55px;
+            color: black;
         }
         p {
-            font-size: 20px;
+            font-size: 40px;
+            color: black;
+            font-weight: 500;
         }
     }
     .form-experiencia {
@@ -228,7 +231,7 @@ footer {
     flex-direction: column;
     align-items: center;
     margin: 15px;
-    margin-top: 150px;
+    margin-top: 10vw;
     p {
         width: 70%;
         background-color: #333;
@@ -258,5 +261,8 @@ footer {
 @media (min-width: 0px) and (max-width: 990px) {
     .nav-item {
         text-align: center;
+    }
+    .main-experiencia {
+        padding: 0;
     }
 }
