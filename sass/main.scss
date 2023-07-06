@@ -94,8 +94,8 @@ footer {
             max-width: 350px;
         }
     }
-    .containerP {
-        p {
+    .containerH1 {
+        h1 {
             font-family: kanit;
             color: white;   
             font-size: 45px;
@@ -118,12 +118,14 @@ footer {
             color: white;
             font-size: 45px;
             margin-bottom: 35px;
+            font-weight: 600;
         }
         p {
             color: white;
-            font-size: 20px;
+            font-size: 30px;
             max-width: 75%;
             text-align: center;
+            font-weight: 200;
         }
     }
 
@@ -191,6 +193,8 @@ footer {
     }
 }
 
+
+
 .main-contacto {
     display: flex;
     flex-direction: column;
@@ -224,18 +228,24 @@ footer {
     flex-direction: column;
     align-items: center;
     margin: 15px;
+    margin-top: 150px;
     p {
         width: 70%;
-        background-color: rgb(220, 53, 69);
+        background-color: #333;
         border-radius: 15px;
         padding: 5px;
         text-align: center;
+        color: black;
+        font-size: 35px;
+        margin-bottom: 40px;
+        color: #000;
+        font-weight: 700;
     }
     .logos-conocimiento {
         display: flex;
         gap: 10px;
         width: 70%;
-        max-width: 700px;
+        max-width: 550px;
         img {
             width: 100%;
         }

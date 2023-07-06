@@ -82,7 +82,7 @@ footer .footer-container .ul-footer li i {
   width: 100%;
   max-width: 350px;
 }
-.presentacion .containerP p {
+.presentacion .containerH1 h1 {
   font-family: kanit;
   color: white;
   font-size: 45px;
@@ -104,12 +104,14 @@ footer .footer-container .ul-footer li i {
   color: white;
   font-size: 45px;
   margin-bottom: 35px;
+  font-weight: 600;
 }
 .sobre_mi p {
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   max-width: 75%;
   text-align: center;
+  font-weight: 200;
 }
 
 /* PORTAFOLIO */
@@ -191,19 +193,25 @@ footer .footer-container .ul-footer li i {
   flex-direction: column;
   align-items: center;
   margin: 15px;
+  margin-top: 150px;
 }
 .main-conocimiento p {
   width: 70%;
-  background-color: rgb(220, 53, 69);
+  background-color: #333;
   border-radius: 15px;
   padding: 5px;
   text-align: center;
+  color: black;
+  font-size: 35px;
+  margin-bottom: 40px;
+  color: #000;
+  font-weight: 700;
 }
 .main-conocimiento .logos-conocimiento {
   display: flex;
   gap: 10px;
   width: 70%;
-  max-width: 700px;
+  max-width: 550px;
 }
 .main-conocimiento .logos-conocimiento img {
   width: 100%;
