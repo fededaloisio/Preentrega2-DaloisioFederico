@@ -156,45 +156,7 @@ footer {
 
 
 
-.main-experiencia {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 500px;
-    gap: 10px;
-    flex-direction: column;
-    .container-main-experiencia {
-        height: auto;
-        width: 75vw;
-        background-color: #333;
-        text-align: center;
-        border-radius: 25px;
-        opacity: .8;
-        min-width: 250px;
-        h2 {
-            font-family: roboto;
-            font-weight: 900;
-            font-size: 55px;
-            color: black;
-        }
-        p {
-            font-size: 40px;
-            color: black;
-            font-weight: 500;
-        }
-    }
-    .form-experiencia {
-        button {
-            padding: 24px;
-            font-size: 22px;
-            height: auto;
-            width: 150px;
-            border-radius: 35px;
-            transition: .4s;
-            opacity: .7s;
-        }
-    }
-}
+
 
 
 
@@ -265,4 +227,4 @@ footer {
     .main-experiencia {
         padding: 0;
     }
-}
+} 
