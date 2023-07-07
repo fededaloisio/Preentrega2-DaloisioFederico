@@ -118,6 +118,7 @@ footer .footer-container .ul-footer li i {
 .main-portafolio .flex-container {
   display: flex;
   margin: 15px;
+  border: 3px solid red;
 }
 .main-portafolio .flex-container .flex-item {
   width: 450px;

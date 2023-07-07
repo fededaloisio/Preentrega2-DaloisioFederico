@@ -138,6 +138,7 @@ footer {
     .flex-container {
         display: flex;
         margin: 15px;
+        border: 3px solid red;
         .flex-item {
             width: 450px;
             height: auto;
