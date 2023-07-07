@@ -132,6 +132,27 @@ footer .footer-container .ul-footer li i {
   border: 5px solid black;
 }
 
+.main__experiencia {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #333;
+  margin: 10vw 5vw 8vw 5vw;
+  border-radius: 30px;
+  color: white;
+}
+.main__experiencia h2 {
+  font-size: 60px;
+  font-weight: 600;
+  padding: 15px;
+  border-bottom: 3px solid black;
+  color: rgb(228, 77, 38);
+}
+.main__experiencia p {
+  font-size: 40px;
+  font-weight: 300;
+}
+
 .main-contacto {
   display: flex;
   flex-direction: column;
@@ -144,6 +165,7 @@ footer .footer-container .ul-footer li i {
 }
 .main-contacto .flex-item-contacto a i {
   font-size: 65px;
+  margin-bottom: 20px;
 }
 .main-contacto .flex-item-contacto.textarea textarea {
   outline: none;
@@ -169,7 +191,7 @@ footer .footer-container .ul-footer li i {
   color: black;
   font-size: 35px;
   margin-bottom: 40px;
-  color: #000;
+  color: white;
   font-weight: 700;
 }
 .main-conocimiento .logos-conocimiento {
